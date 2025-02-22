@@ -163,3 +163,33 @@ button:hover {
         width: 80%;
     }
 }
+
+.social-icons-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.social-icon-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 5px;
+}
+
+.social-icon-item img {
+    transition: transform 0.2s;
+}
+
+.social-icon-item:hover img {
+    transform: scale(1.1);
+}
+
+.social-icon-item span {
+    font-size: 14px;
+    margin-top: 5px;
+}
